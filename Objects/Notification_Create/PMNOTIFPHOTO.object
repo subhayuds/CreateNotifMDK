@@ -1,0 +1,34 @@
+{
+	"Collection": [
+		"PMNOTIFPHOTOSet"
+	],
+	"Properties": [
+		{
+			"Key": false,
+			"_Name": "FolderId",
+			"_Type": "ZCLOUDNATIVE_NOTIF_CREATE_SRV.FolderId"
+		},
+		{
+			"Key": true,
+			"_Name": "ZcnNotifnum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Mimetype",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Filename",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Content",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/Notif_Create/Services/Notification_Create.service",
+	"_Name": "PMNOTIFPHOTO"
+}

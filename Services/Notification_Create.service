@@ -1,0 +1,6 @@
+{
+	"AppId": "com.sap.mdk.asset",
+	"DestinationName": "com.sap.mdk.asset2",
+	"OfflineEnabled": false,
+	"ServiceUrl": "/destinations/mobileservices_cf"
+}

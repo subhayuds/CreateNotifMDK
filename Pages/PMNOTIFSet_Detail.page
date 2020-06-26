@@ -1,0 +1,66 @@
+{
+	"Caption": "Notification Details",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"Description": "{FunctionalLocation}",
+						"HeadlineText": "{ShortText}",
+						"StatusText": "{ReferenceNotif}",
+						"Subhead": "{ZcnNotifnum}",
+						"SubstatusText": "{Equipment}",
+						"Tags": [
+						]
+					},
+					"_Name": "SectionObjectHeader0",
+					"_Type": "Section.Type.ObjectHeader"
+				},
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Footer": {
+						"AccessoryType": "disclosureIndicator",
+						"Caption": "Documents",
+						"OnPress": "/Notif_Create/Actions/NavtoDocList.action",
+						"UseBottomPadding": false,
+						"Visible": true
+					},
+					"KeyAndValues": [
+						{
+							"KeyName": "ZcnNotifnum",
+							"Value": "{ZcnNotifnum}"
+						},
+						{
+							"KeyName": "ShortText",
+							"Value": "{ShortText}"
+						},
+						{
+							"KeyName": "FunctionalLocation",
+							"Value": "{FunctionalLocation}"
+						},
+						{
+							"KeyName": "ReferenceNotif",
+							"Value": "{ReferenceNotif}"
+						},
+						{
+							"KeyName": "Equipment",
+							"Value": "{Equipment}"
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 2
+					},
+					"MaxItemCount": 1,
+					"_Name": "SectionKeyValue0",
+					"_Type": "Section.Type.KeyValue"
+				}
+			],
+			"_Name": "SectionedTable",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "PMNOTIFSet_Detail",
+	"_Type": "Page"
+}

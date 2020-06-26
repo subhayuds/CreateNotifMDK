@@ -1,0 +1,6 @@
+{
+	"Message": "Failed to attach image to the notification",
+	"OKCaption": "OK",
+	"Title": "Message",
+	"_Type": "Action.Type.Message"
+}

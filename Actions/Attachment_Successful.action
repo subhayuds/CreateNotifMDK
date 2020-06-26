@@ -1,0 +1,7 @@
+{
+	"Message": "Notification successfully created",
+	"OKCaption": "OK",
+	"OnOK": "/Notif_Create/Actions/CloseModalPage_Complete.action",
+	"Title": "Image",
+	"_Type": "Action.Type.Message"
+}

@@ -1,0 +1,53 @@
+{
+	"ActionBar": {
+		"Items": [
+			{
+				"OnPress": "/Notif_Create/Actions/NavToNotif_Create.action",
+				"Position": "right",
+				"SystemItem": "Add",
+				"Text": "Create",
+				"Visible": true
+			}
+		]
+	},
+	"Caption": "Notification List",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"ObjectCell": {
+						"AccessoryType": "disclosureIndicator",
+						"Description": "{FunctionalLocation}",
+						"DetailImage": "res://mdk_logo.png",
+						"DetailImageIsCircular": false,
+						"Footnote": "{Qmdat}",
+						"OnPress": "/Notif_Create/Actions/NavToPMNOTIFSet_Detail.action",
+						"PreserveIconStackSpacing": true,
+						"StatusText": "{Priority}",
+						"Subhead": "{ZcnNotifnum}",
+						"SubstatusText": "{Status}",
+						"Title": "{ShortText}"
+					},
+					"Search": {
+						"BarcodeScanner": true,
+						"Enabled": true
+					},
+					"Target": {
+						"EntitySet": "PMNOTIFSet",
+						"Service": "/Notif_Create/Services/Notification_Create.service"
+					},
+					"Visible": true,
+					"_Name": "SectionObjectTable3",
+					"_Type": "Section.Type.ObjectTable"
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "Notif_List",
+	"_Type": "Page"
+}

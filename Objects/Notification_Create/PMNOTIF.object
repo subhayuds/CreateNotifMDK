@@ -1,0 +1,61 @@
+{
+	"Collection": [
+		"PMNOTIFSet"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "NOtiftoPhoto",
+			"_Type": "Collection(PMNOTIFPHOTO)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": false,
+			"_Name": "Qmdat",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": true,
+			"_Name": "ZcnNotifnum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Matnr",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ShortText",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Priority",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FunctionalLocation",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Status",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ReferenceNotif",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Equipment",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/Notif_Create/Services/Notification_Create.service",
+	"_Name": "PMNOTIF"
+}

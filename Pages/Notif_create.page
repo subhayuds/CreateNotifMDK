@@ -1,0 +1,87 @@
+{
+	"ActionBar": {
+		"Items": [
+			{
+				"OnPress": "/Notif_Create/Actions/CloseModalPage_Cancel.action",
+				"Position": "left",
+				"SystemItem": "Cancel",
+				"Text": "Cancel",
+				"Visible": true
+			},
+			{
+				"OnPress": "/Notif_Create/Rules/OnCreateNotif.js",
+				"Position": "right",
+				"SystemItem": "Save",
+				"Text": "Save",
+				"Visible": true
+			}
+		]
+	},
+	"Caption": "Create Notification",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"AttachmentActionType": [
+								"AddPhoto",
+								"TakePhoto",
+								"SelectFile"
+							],
+							"IsVisible": true,
+							"_Name": "FormCellAttachment0",
+							"_Type": "Control.Type.FormCell.Attachment"
+						}
+					],
+					"Visible": true
+				},
+				{
+					"Controls": [
+						{
+							"AlternateInput": "None",
+							"Caption": "Short Text",
+							"IsEditable": true,
+							"IsVisible": true,
+							"KeyboardType": "Default",
+							"Value": "{ShortText}",
+							"_Name": "FCShortText",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Equipment",
+							"IsEditable": true,
+							"IsVisible": true,
+							"PlaceHolder": "{Equipment}",
+							"Value": "{Equipment}",
+							"_Name": "FCEquipment",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Functional Location",
+							"IsEditable": true,
+							"IsVisible": true,
+							"PlaceHolder": "{FunctionalLocation}",
+							"Value": "{FunctionalLocation}",
+							"_Name": "FCFunctionalLocation",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Notification No",
+							"IsEditable": false,
+							"IsVisible": false,
+							"PlaceHolder": "PlaceHolder",
+							"_Name": "txtNotifNum",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						}
+					],
+					"Visible": true
+				}
+			],
+			"_Name": "FormCellContainer0",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"_Name": "Notif_create",
+	"_Type": "Page"
+}

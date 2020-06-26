@@ -1,0 +1,5 @@
+{
+	"ModalPage": true,
+	"PageToOpen": "/Notif_Create/Pages/Notif_create.page",
+	"_Type": "Action.Type.Navigation"
+}

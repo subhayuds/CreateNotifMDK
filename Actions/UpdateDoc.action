@@ -1,0 +1,16 @@
+{
+	"OnFailure": "/Notif_Create/Actions/CreateNotifFailureMessage.action",
+	"OnSuccess": "/Notif_Create/Actions/CloseModalPage_Complete.action",
+	"Properties": {
+		"Content": "{Content}",
+		"Filename": "{Filename}",
+		"Mimetype": "{Mimetype}",
+		"ZcnNotifnum": "{ZcnNotifnum}"
+	},
+	"Target": {
+		"EntitySet": "PMNOTIFPHOTOSet",
+		"ReadLink": "{@odata.readLink}",
+		"Service": "/Notif_Create/Services/Notification_Create.service"
+	},
+	"_Type": "Action.Type.ODataService.UpdateEntity"
+}

@@ -1,0 +1,47 @@
+{
+	"ActionBar": {
+		"Items": [
+			{
+				"OnPress": "/Notif_Create/Actions/CloseModalPage_Cancel.action",
+				"Position": "left",
+				"SystemItem": "Cancel",
+				"Text": "Cancel",
+				"Visible": true
+			},
+			{
+				"OnPress": "/Notif_Create/Actions/attach.action",
+				"Position": "right",
+				"SystemItem": "Save",
+				"Text": "Save",
+				"Visible": true
+			}
+		]
+	},
+	"Caption": "Document_Create",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"AttachmentActionType": [
+								"AddPhoto",
+								"TakePhoto",
+								"SelectFile"
+							],
+							"AttachmentTitle": "Attachment",
+							"IsVisible": true,
+							"_Name": "FCAttach3",
+							"_Type": "Control.Type.FormCell.Attachment"
+						}
+					],
+					"Visible": true
+				}
+			],
+			"_Name": "FormCellContainer0",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"_Name": "Document_Create",
+	"_Type": "Page"
+}

@@ -1,0 +1,9 @@
+{
+	"Target": {
+		"EntitySet": "PMNOTIFPHOTOSet",
+		"QueryOptions": "",
+		"ReadLink": "{@odata.readLink}",
+		"Service": "/Notif_Create/Services/Notification_Create.service"
+	},
+	"_Type": "Action.Type.ODataService.DownloadMedia"
+}

@@ -1,0 +1,11 @@
+{
+	"_Type": "Action.Type.ODataService.Create",
+	"Service": "/Notif_Create/Services/Notification_Create.service",
+	"OnSuccess": "/Notif_Create/Actions/Service/OpenService.action",
+	"OnFailure": "/Notif_Create/Actions/Service/CreateOpenServiceFailureMessage.action",
+	"ShowActivityIndicator": true,
+	"ActivityIndicatorText": "Initializing Application...",
+	"ActionResult": {
+		"_Name": "init"
+	}
+}

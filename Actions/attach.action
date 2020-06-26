@@ -1,0 +1,20 @@
+{
+	"ActionResult": {
+		"_Name": "https://notifypub.cfapps.eu10.hana.ondemand.com/notification"
+	},
+	"Headers": {
+		"slug": "#Page:Notif_create/#Control:txtNotifNum/#Value"
+	},
+	"IsOnlineRequest": true,
+	"Media": "#Page:Notif_create/#Control:FormCellAttachment0/#Value",
+	"OnFailure": "/Notif_Create/Actions/Attachment_Fail.action",
+	"OnSuccess": "/Notif_Create/Actions/Attachment_Successful.action",
+	"Properties": {
+		"ZcnNotifnum": "#Page:Notif_create/#Control:txtNotifNum/#Value"
+	},
+	"Target": {
+		"EntitySet": "PMNOTIFPHOTOSet",
+		"Service": "/Notif_Create/Services/Notification_Create.service"
+	},
+	"_Type": "Action.Type.ODataService.CreateMedia"
+}

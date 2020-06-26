@@ -1,0 +1,72 @@
+{
+	"Caption": "Notif_Detail",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"Description": "{FunctionalLocation}",
+						"DetailImageIsCircular": false,
+						"HeadlineText": "{ShortText}",
+						"StatusText": "{Equipment}",
+						"Target": {
+							"EntitySet": "PMNOTIFSet",
+							"Service": "/Notif_Create/Services/Notification_Create.service"
+						}
+					},
+					"Visible": true,
+					"_Name": "SectionObjectHeader0",
+					"_Type": "Section.Type.ObjectHeader"
+				},
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Footer": {
+						"AccessoryType": "disclosureIndicator",
+						"Caption": "Documents",
+						"UseBottomPadding": false,
+						"Visible": true
+					},
+					"KeyAndValues": [
+						{
+							"KeyName": "Short Text",
+							"Value": "{ShortText}",
+							"Visible": true
+						},
+						{
+							"KeyName": "Notification No.",
+							"Value": "{ZcnNotifnum}",
+							"Visible": true
+						},
+						{
+							"KeyName": "Functional Location",
+							"Value": "{FunctionalLocation}",
+							"Visible": true
+						},
+						{
+							"KeyName": "Equipment",
+							"Value": "{Equipment}",
+							"Visible": true
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 1
+					},
+					"MaxItemCount": 1,
+					"Target": {
+						"EntitySet": "PMNOTIFSet",
+						"Service": "/Notif_Create/Services/Notification_Create.service"
+					},
+					"Visible": true,
+					"_Name": "SectionKeyValue3",
+					"_Type": "Section.Type.KeyValue"
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "Notif_Detail",
+	"_Type": "Page"
+}
