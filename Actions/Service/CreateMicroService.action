@@ -1,0 +1,9 @@
+{
+	"ActionResult": {
+		"_Name": "init"
+	},
+	"OnFailure": "/Notif_Create/Actions/Service/CreateOpenServiceFailureMessage.action",
+	"OnSuccess": "/Notif_Create/Actions/Service/OpenMicroService.action",
+	"Service": "/Notif_Create/Services/MicroService.service",
+	"_Type": "Action.Type.ODataService.Create"
+}

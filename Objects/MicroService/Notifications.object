@@ -1,0 +1,34 @@
+{
+	"Collection": [
+		"Notifications"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "ZcnNotifNum",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Mimetype",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Filename",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Content",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FolderId",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/Notif_Create/Services/MicroService.service",
+	"_Name": "Notifications"
+}

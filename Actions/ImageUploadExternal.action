@@ -1,0 +1,18 @@
+{
+	"Headers": {
+		"Content-Type": "application/json"
+	},
+	"Properties": {
+		"Content": "#Page:Notif_create/#Control:txtB64FileContent/#Value",
+		"Filename": "#Page:Notif_create/#Control:txtFileName/#Value",
+		"FolderId": "SAMPLE-FOLDER-ID",
+		"Mimetype": "#Page:Notif_create/#Control:txtFileExtension/#Value",
+		"ZcnNotifNum": "#Page:Notif_create/#Control:txtNotifNum/#Value"
+	},
+	"ShowActivityIndicator": true,
+	"Target": {
+		"EntitySet": "Notifications",
+		"Service": "/Notif_Create/Services/MicroService.service"
+	},
+	"_Type": "Action.Type.ODataService.CreateEntity"
+}

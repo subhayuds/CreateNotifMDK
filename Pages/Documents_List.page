@@ -25,7 +25,7 @@
 						"PreserveIconStackSpacing": true,
 						"ProgressIndicator": "toDownload",
 						"Subhead": "{Filename}",
-						"Title": "{Content}"
+						"Title": "{Filename}"
 					},
 					"Search": {
 						"BarcodeScanner": true,
@@ -33,7 +33,7 @@
 					},
 					"Target": {
 						"EntitySet": "{{#Property:@odata.readLink}}/NOtiftoPhoto",
-						"ReadLink": "{@odata.readLink}",
+						"ReadLink": "",
 						"Service": "/Notif_Create/Services/Notification_Create.service"
 					},
 					"Visible": true,

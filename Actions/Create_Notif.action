@@ -1,9 +1,11 @@
 {
+	"ActivityIndicatorText": "Processing...",
 	"Properties": {
 		"Equipment": "#Control:FCEquipment/#Value",
 		"FunctionalLocation": "#Control:FCFunctionalLocation/#Value",
 		"ShortText": "#Control:FCShortText/#Value"
 	},
+	"ShowActivityIndicator": true,
 	"Target": {
 		"EntitySet": "PMNOTIFSet",
 		"Service": "/Notif_Create/Services/Notification_Create.service"

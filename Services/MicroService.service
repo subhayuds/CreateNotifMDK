@@ -1,0 +1,11 @@
+{
+	"AppId": "com.sap.mdk.asset",
+	"DestinationName": "test",
+	"OfflineEnabled": false,
+	"OnlineOptions": {
+		"ServiceOptions": {
+			"dataVersion": 400
+		}
+	},
+	"ServiceUrl": "/destinations/mobileservices_cf"
+}

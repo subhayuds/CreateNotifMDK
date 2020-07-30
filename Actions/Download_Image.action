@@ -2,7 +2,7 @@
 	"Target": {
 		"EntitySet": "PMNOTIFPHOTOSet",
 		"QueryOptions": "",
-		"ReadLink": "{@odata.readLink}",
+		"ReadLink": "PMNOTIFPHOTOSet(ZcnNotifnum='10000410',FolderId='FOL42000000000004EXT45000000000002')/$value",
 		"Service": "/Notif_Create/Services/Notification_Create.service"
 	},
 	"_Type": "Action.Type.ODataService.DownloadMedia"

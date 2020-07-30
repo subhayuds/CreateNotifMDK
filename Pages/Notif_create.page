@@ -73,6 +73,30 @@
 							"PlaceHolder": "PlaceHolder",
 							"_Name": "txtNotifNum",
 							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "B64-File",
+							"IsEditable": false,
+							"IsVisible": false,
+							"PlaceHolder": "PlaceHolder",
+							"_Name": "txtB64FileContent",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "FileName",
+							"IsEditable": false,
+							"IsVisible": false,
+							"PlaceHolder": "PlaceHolder",
+							"_Name": "txtFileName",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "FileExtension",
+							"IsEditable": false,
+							"IsVisible": false,
+							"PlaceHolder": "PlaceHolder",
+							"_Name": "txtFileExtension",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
 						}
 					],
 					"Visible": true

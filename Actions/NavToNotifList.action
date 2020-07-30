@@ -1,0 +1,5 @@
+{
+	"PageToOpen": "/Notif_Create/Pages/Notif_List.page",
+	"ShowActivityIndicator": true,
+	"_Type": "Action.Type.Navigation"
+}

@@ -1,0 +1,90 @@
+{
+	"Caption": "Notification Details",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"Description": "{FunctionalLocation}",
+						"HeadlineText": "{ShortText}",
+						"StatusText": "{ReferenceNotif}",
+						"Subhead": "{ZcnNotifnum}",
+						"SubstatusText": "{Equipment}",
+						"Tags": [
+						]
+					},
+					"_Name": "SectionObjectHeader0",
+					"_Type": "Section.Type.ObjectHeader"
+				},
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"KeyAndValues": [
+						{
+							"KeyName": "ZcnNotifnum",
+							"Value": "{ZcnNotifnum}"
+						},
+						{
+							"KeyName": "ShortText",
+							"Value": "{ShortText}"
+						},
+						{
+							"KeyName": "FunctionalLocation",
+							"Value": "{FunctionalLocation}"
+						},
+						{
+							"KeyName": "ReferenceNotif",
+							"Value": "{ReferenceNotif}"
+						},
+						{
+							"KeyName": "Equipment",
+							"Value": "{Equipment}"
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 2
+					},
+					"MaxItemCount": 1,
+					"_Name": "SectionKeyValue0",
+					"_Type": "Section.Type.KeyValue"
+				},
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"ObjectCell": {
+						"AccessoryType": "none",
+						"Description": "Notification Attachment",
+						"DetailImage": "/Notif_Create/Images/ImageContent.png",
+						"DetailImageIsCircular": false,
+						"DetailImageText": "Notification Attachment",
+						"Footnote": "{FolderId}",
+						"OnAccessoryButtonPress": "/Notif_Create/Actions/Download_Image.action",
+						"OnPress": "/Notif_Create/Rules/OnDownloadImage.js",
+						"PreserveIconStackSpacing": true,
+						"ProgressIndicator": "toDownload",
+						"Styles": {
+							"Description": "showNoting",
+							"Footnote": "showNoting"
+						},
+						"Subhead": "{Mimetype}",
+						"Title": "{Filename}"
+					},
+					"Target": {
+						"EntitySet": "/Notif_Create/Rules/OnAttachementListLoad.js",
+						"ReadLink": "",
+						"Service": "/Notif_Create/Services/Notification_Create.service"
+					},
+					"Visible": true,
+					"_Name": "SectionObjectTable0",
+					"_Type": "Section.Type.ObjectTable"
+				}
+			],
+			"_Name": "SectionedTable",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "PMNOTIFSet_Detail_SDS",
+	"_Type": "Page"
+}

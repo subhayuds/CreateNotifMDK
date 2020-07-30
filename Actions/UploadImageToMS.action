@@ -1,0 +1,15 @@
+{
+	"Media": "#Page:Notif_create/#Control:FormCellAttachment0/#Value",
+	"Properties": {
+		"Content": "#Page:Notif_create/#Control:txtB64FileContent/#Value",
+		"Filename": "#Page:Notif_create/#Control:txtFileName/#Value",
+		"FolderId": "SampleFolderID",
+		"Mimetype": "#Page:Notif_create/#Control:txtFileExtension/#Value",
+		"ZcnNotifNum": "#Page:Notif_create/#Control:txtNotifNum/#Value"
+	},
+	"Target": {
+		"EntitySet": "Notifications",
+		"Service": "/Notif_Create/Services/MicroService.service"
+	},
+	"_Type": "Action.Type.ODataService.CreateMedia"
+}

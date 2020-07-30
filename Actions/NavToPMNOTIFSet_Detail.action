@@ -1,4 +1,4 @@
 {
-	"PageToOpen": "/Notif_Create/Pages/PMNOTIFSet_Detail.page",
+	"PageToOpen": "/Notif_Create/Pages/PMNOTIFSet_Detail_SDS.page",
 	"_Type": "Action.Type.Navigation"
 }
